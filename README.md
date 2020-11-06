@@ -120,13 +120,35 @@ git init
 
 git add .
 
-git commit -m "primer commit"
+git commit -m "Estructura del servidor"
 
 git branch -M rama001   // Escogemos el nombre de la rama
 
-git remote add origin https://github.com/asalsan790/restapitriangulo000.git
+git remote add origin https://github.com/ItziarEspino/restapi000.git
 
 git push -u origin rama001  // hacemos push de nuestra rama.
 
+
+
+//Para ver a donde apunta cada rama
+
+git log --oneline --decorate
+
+// Crear una nueva rama
+
+git branch rama002
+
+// Cambiar de rama
+
+git checkout rama002
+
+git add .
+
+git commit -m "en nueva rama"
+
+git push -u origin rama002   
+
+
+--
 
 
